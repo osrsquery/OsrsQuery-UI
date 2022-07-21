@@ -1,0 +1,146 @@
+
+
+@font-face {
+    src: url('fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    src: url('fonts/Font-Awesome-5-Pro-Solid-900.ttf');
+}
+
+@font-face {
+    src: url('fonts/Font-Awesome-5-Pro-Regular-400.ttf');
+}
+
+@font-face {
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+.root {
+    -fx-background-color: "#1D2125"
+}
+
+.header-exit {
+     -fx-font-family: 'Font Awesome 5 Pro Regular';
+	 -fx-border-color: transparent;
+     -fx-border-width: 0;
+     -fx-background-radius: 0;
+     -fx-background-color: transparent;
+     -fx-font-size: 11pt;
+     -fx-effect: none;
+     -fx-text-fill: "#A0A0A0";
+     -fx-alignment: CENTER;
+}
+
+.header-exit:hover {
+   -fx-background-color: "#E81123";
+   -fx-text-fill: "#FCE1E3";
+}
+
+.header-btn {
+     -fx-font-family: 'Font Awesome 5 Pro Regular';
+	 -fx-border-color: transparent;
+     -fx-border-width: 0;
+     -fx-background-radius: 0;
+     -fx-background-color: transparent;
+     -fx-font-size: 11pt;
+     -fx-effect: none;
+     -fx-text-fill: "#A0A0A0";
+     -fx-alignment: CENTER;
+}
+
+.header-btn:hover {
+   -fx-background-color: "#888888";
+   -fx-text-fill: "#FFFFFF";
+}
+
+
+#header {
+    -fx-background-color: "#24292E";
+    -fx-border-style: hidden hidden solid none;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+.loadingText {
+    -fx-font-family: 'Montserrat SemiBold';
+    -fx-font-size: 12pt;
+    -fx-text-fill: "#A0A0A0";
+    -fx-alignment: CENTER;
+}
+
+.download-tab {
+    -fx-background-color: "#24292E";
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-font-family: 'Montserrat';
+    -fx-font-size: 9pt;
+    -fx-text-fill: "#A0A0A0";
+    -fx-alignment: CENTER;
+}
+
+.download-tab:hover {
+    -fx-background-color: "#2F363D";
+    -fx-background-radius: 0;
+    -fx-border-color: "#0366D6";
+    -fx-border-width: 0 0 3 0;
+    -fx-font-family: 'Montserrat';
+    -fx-font-size: 9pt;
+    -fx-text-fill: "#A0A0A0";
+    -fx-alignment: CENTER;
+
+}
+
+.download-tab:selected {
+    -fx-background-color: "#2F363D";
+    -fx-background-radius: 0;
+    -fx-border-color: "#0366D6";
+    -fx-border-width: 0 0 3 0;
+    -fx-font-family: 'Montserrat';
+    -fx-font-size: 9pt;
+    -fx-text-fill: "#A0A0A0";
+    -fx-alignment: CENTER;
+
+}
+
+#footer {
+    -fx-background-color: "#24292E";
+    -fx-border-style: solid none none none;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+.scrollsettings {
+   -fx-background-color:transparent;
+}
+
+.scrollsettings .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+    -fx-pref-width: 9.5;
+}
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: "#424245";
+    -fx-border-color: transparent;
+    -fx-background-radius: 3em;
+    -fx-pref-width: 9.5;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: "#615FFD";
+    -fx-background-radius: 7em;
+    -fx-pref-width: 9.5;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: "#9592FE";
+    -fx-pref-width: 9.5;
+}
+
